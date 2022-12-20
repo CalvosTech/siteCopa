@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right,rgb(154, 69, 104), rgb(82, 39, 57));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gradiente{
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to right,rgb(154, 69, 104), rgb(82, 39, 57));
+    width: 100%;
+    height: 5rem;
+    box-shadow: 0px 3px 5px black;
+}
+.img{
+    width: 10%;
+    position: absolute;
+    top: 0rem;
+    left: 26.1rem;
+}
+.title1{
+    text-decoration: none;
+    position: absolute;
+    top: 1.1rem;
+    font-size: 2rem;
+    left: 2rem;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li{
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    top: 1.55rem;
+    left: 52rem;
+}
+
+.a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(229, 226, 226);
+    font-size: 1.2rem;
+}
+.a:hover{
+    
+    font-size: 1.1rem;
+}
+
+.div2{
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+}
+.img2{
+    margin-top: 81px;
+    height: 100%;
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    left: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(221, 218, 218);
+}
+
+footer{
+    color: rgb(221, 218, 218);
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#Nav{
+    position: absolute fixed;
+    right: 0;
+    top: 50%;
+    width: 8em;
+    margin-top: -2.5em;
+    z-index: 1;
+}
+*{
+    margin: 0;
+}
+article{
+    margin: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(221, 218, 218);
+}
+
+#subtitles{
+    position: relative;
+    text-align: center;
+}
+
+#text{
+    position: relative;
+    text-align: justify;
+}
+
+fieldset{
+    background-color: rgb(187, 42, 42);
+    border: none;
+}
+
+footer{
+    font-size: 2.2vh;
+}
+a{
+    text-decoration: none;
+}
